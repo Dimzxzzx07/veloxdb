@@ -1,0 +1,60 @@
+{
+  "name": "velox-database",
+  "version": "1.0.0",
+  "description": "High-performance embedded key-value database with proprietary binary format, XOR obfuscation, and atomic writes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "velox": "./bin/veloxdb.js",
+    "veloxdb": "./bin/veloxdb.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "cli": "node ./bin/veloxdb.js --cli",
+    "postinstall": "chmod +x bin/veloxdb.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "keywords": [
+    "database",
+    "embedded",
+    "key-value",
+    "typescript",
+    "binary",
+    "veloxdb",
+    "nosql",
+    "fast",
+    "obfuscated",
+    "storage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimzxzzx07/veloxdb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dimzxzzx07/veloxdb/issues"
+  },
+  "homepage": "https://github.com/Dimzxzzx07/veloxdb#readme",
+  "author": "Dimzxzzx07 <dimasputraamansyah@gmail.com> <dimzxae@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

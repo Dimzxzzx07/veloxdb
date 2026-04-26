@@ -1,0 +1,22 @@
+# .gitignore
+node_modules/
+dist/
+*.log
+*.veloxdb
+*.idx
+*.so
+*.dll
+*.dylib
+test-data/
+test-*-data/
+data/
+coverage/
+.veloxauth
+.veloxfw.log
+.token
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
